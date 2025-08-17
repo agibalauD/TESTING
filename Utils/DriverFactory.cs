@@ -14,7 +14,7 @@ namespace ATRememly.Utils
             var options = new AppiumOptions(); // настройка appium 
             
             options.PlatformName = "android";
-            options.DeviceName = "MyDevice"; // имя девайса
+            options.DeviceName = "emulator-5554"; // имя девайса
             options.AutomationName = "Uiautomator2"; // драйвер 
             options.AddAdditionalAppiumOption("noReset", true);
             

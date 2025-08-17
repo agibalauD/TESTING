@@ -1867,19 +1867,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sergei.p\\.nuget\\packages\\": {}
+    "C:\\Users\\Daniel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sergei.p\\Desktop\\autoTestsRememly\\ATRememly\\ATRememly\\ATRememly.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\testing\\GitHubProjects\\TESTING\\ATRememly.csproj",
       "projectName": "ATRememly",
-      "projectPath": "C:\\Users\\sergei.p\\Desktop\\autoTestsRememly\\ATRememly\\ATRememly\\ATRememly.csproj",
-      "packagesPath": "C:\\Users\\sergei.p\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sergei.p\\Desktop\\autoTestsRememly\\ATRememly\\ATRememly\\obj\\",
+      "projectPath": "C:\\Users\\Daniel\\Desktop\\testing\\GitHubProjects\\TESTING\\ATRememly.csproj",
+      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Daniel\\Desktop\\testing\\GitHubProjects\\TESTING\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sergei.p\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1902,7 +1902,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1952,21 +1953,27 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }
