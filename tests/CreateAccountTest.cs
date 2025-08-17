@@ -38,7 +38,7 @@ namespace AtRememly.Tests
             
             // решить вопрос как скипнуть пейвалл 
             
-            TestContext.WriteLine("✅ Пользователь успешно прошёл регистрацию!");
+            TestContext.WriteLine("Пользователь успешно прошёл регистрацию!");
         }
 
         [TearDown]
