@@ -1,0 +1,5 @@
+C:\Users\sergei.p\Desktop\autoTestsRememly\ATRememly\ATRememly\obj\Debug\net8.0\ATRememly.csproj.AssemblyReference.cache
+C:\Users\sergei.p\Desktop\autoTestsRememly\ATRememly\ATRememly\obj\Debug\net8.0\ATRememly.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergei.p\Desktop\autoTestsRememly\ATRememly\ATRememly\obj\Debug\net8.0\ATRememly.AssemblyInfoInputs.cache
+C:\Users\sergei.p\Desktop\autoTestsRememly\ATRememly\ATRememly\obj\Debug\net8.0\ATRememly.AssemblyInfo.cs
+C:\Users\sergei.p\Desktop\autoTestsRememly\ATRememly\ATRememly\obj\Debug\net8.0\ATRememly.csproj.CoreCompileInputs.cache
