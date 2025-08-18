@@ -1,16 +1,13 @@
 ﻿using ATRememly.Utils;
-using OpenQA.Selenium;
-using OpenQA.Selenium;
+using NUnit.Framework;
 using OpenQA.Selenium.Appium;
-using OpenQA.Selenium.Remote;
-using System.IO;
 
 namespace AtRememly.Tests
 {
     public class ScreenshotTest
     {
-   
-
+        private AppiumDriver driver;
+        
         [SetUp]
         public void Setup()
         {
@@ -18,16 +15,11 @@ namespace AtRememly.Tests
         }
 
         [Test]
-        public void TakeScreenshotTest()
+        public void MakeScreenshot()
         {
-            Screenshot screenshot = ((ITakesScreenshot).GetScreenshot();
-            
-
-            var path = Path.Combine(Directory.GetCurrentDirectory(), "screenshotClosely.png");
-            screenshot.SaveAsFile("screenshot.png");
-            Console.WriteLine($"Screenshot saved to: {path}");
+            ScreenshotExample.TakeScreenshot(driver);
+            Console.WriteLine("Screenshot taken");
         }
-
         [TearDown]
         public void Cleanup()
         {
