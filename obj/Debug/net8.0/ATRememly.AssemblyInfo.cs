@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ATRememly")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37c91b979df9130e9ad82cec75a8e4fd48e5dc37")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d44ddbc3ad0efb4c41745902ac781c991ffd35ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("ATRememly")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ATRememly")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
